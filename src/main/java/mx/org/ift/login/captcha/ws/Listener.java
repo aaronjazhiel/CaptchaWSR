@@ -113,4 +113,48 @@ public class Listener {
 		return builder.build();
 	}
 	
+	@GET
+	@Path("/speech/{op1}/{op2}")
+	@Produces("image/png")
+	@Consumes(MediaType.TEXT_PLAIN)
+	public Response speech(@PathParam("op1")String op1,
+			                  @PathParam("op2")String op2){
+		ImageService is = new ImageServiceImpl();
+		
+		ConvertidorImagenImpl i = new ConvertidorImagenImpl();
+    	OperacionVO op = new OperacionVO();
+    	
+    	op.setOperacion(op1);
+    	String[] a = i.splitOp(op.getOperacion());
+    	
+    	op.setOperando1(a[0]);
+    	op.setOperador(a[1] + " ");
+    	op.setOperando2(a[2]);
+    	
+    	OperacionVO op3 = new OperacionVO();
+    	
+    	if(op2 != null && op2.length() > 5){
+	    	op3.setOperacion(op2);
+	    	a = i.splitOp(op3.getOperacion());
+	    	op3.setOperando1(a[0]);
+	    	op3.setOperador(a[1] + " ");
+	    	op3.setOperando2(a[2]);
+    	}
+    	final byte[] img = i.createCaptcha(op, op3);
+    	
+		
+		ResponseBuilder builder = Response.status(Status.INTERNAL_SERVER_ERROR);
+		builder.header("Content-Disposition","attachment; filename=image.png");
+		
+		
+		builder.status(Status.OK).type("image/png").entity(new StreamingOutput(){
+		    @Override
+		    public void write(OutputStream output) throws IOException, WebApplicationException {
+		        output.write(img);
+		        output.flush();
+		    }
+		});
+		return builder.build();
+	}
+	
 }

@@ -1,0 +1,149 @@
+Environment variables:
+  - =::=::\
+  - =C:=C:\Users\KODE-LAP0077\workspace\CaptchaWSR
+  - ALLUSERSPROFILE=C:\ProgramData
+  - APPDATA=C:\Users\KODE-LAP0077\AppData\Roaming
+  - CLASSPATH=C:\Program Files\Java\jdk1.8.0_171\bin
+  - COMPUTERNAME=DESKTOP-SHMNPCQ
+  - ComSpec=C:\WINDOWS\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - DriverData=C:\Windows\System32\Drivers\DriverData
+  - ERROR_CODE=0
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\KODE-LAP0077
+  - JAVA_EXEC="C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin\..\jre\bin\java.exe"
+  - JAVA_HOME=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin\..\jre
+  - LOCALAPPDATA=C:\Users\KODE-LAP0077\AppData\Local
+  - LOGONSERVER=\\DESKTOP-SHMNPCQ
+  - M2=C:\maven\apache-maven-3.5.3\bin
+  - M2_HOME=C:\maven\apache-maven-3.5.3
+  - MOZ_PLUGIN_PATH=C:\Program Files (x86)\Foxit Software\Foxit PhantomPDF\plugins\
+  - NUMBER_OF_PROCESSORS=4
+  - OS=Windows_NT
+  - OneDrive=C:\Users\KODE-LAP0077\OneDrive
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=3d04
+  - PROJECT_HOME=C:\Users\KODE-LAP0077\workspace\CaptchaWSR
+  - PROMPT=$P$G
+  - PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+  - PUBLIC=C:\Users\Public
+  - Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_162\bin;C:\maven\apache-maven-3.5.3\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin;C:\Users\KODE-LAP0077\AppData\Local\Microsoft\WindowsApps;C:\Users\KODE-LAP0077\AppData\Local\GitHubDesktop\bin
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=Console
+  - SONAR_SCANNER_HOME=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\WINDOWS
+  - TEMP=C:\Users\KODE-L~1\AppData\Local\Temp
+  - TMP=C:\Users\KODE-L~1\AppData\Local\Temp
+  - USERDOMAIN=DESKTOP-SHMNPCQ
+  - USERDOMAIN_ROAMINGPROFILE=DESKTOP-SHMNPCQ
+  - USERNAME=KODE-LAP0077
+  - USERPROFILE=C:\Users\KODE-LAP0077
+  - VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+  - scriptdir=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin
+  - use_embedded_jre=true
+  - windir=C:\WINDOWS
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1252
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin\..\lib\sonar-scanner-cli-3.2.0.1227.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\endorsed
+  - java.ext.dirs=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+  - java.home=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre
+  - java.io.tmpdir=C:\Users\KODE-L~1\AppData\Local\Temp\
+  - java.library.path=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_162\bin;C:\maven\apache-maven-3.5.3\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin;C:\Users\KODE-LAP0077\AppData\Local\Microsoft\WindowsApps;C:\Users\KODE-LAP0077\AppData\Local\GitHubDesktop\bin;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_121-b13
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_121
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.121-b13
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 10
+  - os.version=10.0
+  - path.separator=;
+  - project.home=C:\Users\KODE-LAP0077\workspace\CaptchaWSR
+  - scanner.home=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\resources.jar;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\rt.jar;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\sunrsasign.jar;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\jsse.jar;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\jce.jar;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\charsets.jar;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\lib\jfr.jar;C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\classes
+  - sun.boot.library.path=C:\Users\KODE-LAP0077\Documents\Sonar\sonar-scanner-3.2.0.1227-windows\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1252
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=
+  - sun.stderr.encoding=cp850
+  - sun.stdout.encoding=cp850
+  - user.country=MX
+  - user.dir=C:\Users\KODE-LAP0077\workspace\CaptchaWSR
+  - user.home=C:\Users\KODE-LAP0077
+  - user.language=es
+  - user.name=KODE-LAP0077
+  - user.script=
+  - user.timezone=America/Mexico_City
+  - user.variant=
+SonarQube plugins:
+  - Issue resolver 1.0.2 (issueresolver)
+  - SonarPython 1.10.0.2131 (python)
+  - SonarCSS 1.0.0.457 (cssfamily)
+  - Spanish Pack 1.13 (l10nes)
+  - CodeCracker for C# 1.0.1 (codecrackercsharp)
+  - Svn 1.7.0.1017 (scmsvn)
+  - SonarJS 4.1.0.6085 (javascript)
+  - Findbugs 3.6.0 (findbugs)
+  - SonarC# 7.2.0.5463 (csharp)
+  - SonarJava 5.5.0.14655 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarWeb 2.6.0.1053 (web)
+  - Git 1.4.1.1128 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 1.5.1.1452 (xml)
+  - SoftVis3D Sonar plugin 1.0.1 (softvis3d)
+  - SonarPHP 2.13.0.3107 (php)
+  - SonarTS 1.6.0.2388 (typescript)
+  - Checkstyle 4.10 (checkstyle)
+Global properties:
+  - sonar.core.id=AWOy82BGfFyv0iMBXtN1
+  - sonar.core.startTime=2018-08-14T18:19:33-0500
+Settings for module: 1_0
+  - sonar.host.url=http://sonarqube.ift.org.mx:9000
+  - sonar.projectBaseDir=C:\Users\KODE-LAP0077\workspace\CaptchaWSR
+  - sonar.projectKey=1_0
+  - sonar.projectName=CaptchaWSR
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.2.0.1227
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=.
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\KODE-LAP0077\workspace\CaptchaWSR\.scannerwork

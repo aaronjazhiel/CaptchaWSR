@@ -1,0 +1,12 @@
+mx\org\ift\login\captcha\service\impl\ConvertidorImagenImpl$CaptchaParameters.class
+mx\org\ift\login\captcha\service\impl\AudioServiceImpl$1.class
+mx\org\ift\login\captcha\ws\Listener$1.class
+mx\org\ift\login\captcha\ws\Listener.class
+mx\org\ift\login\captcha\service\ImageService.class
+mx\org\ift\login\captcha\service\impl\ImageServiceImpl.class
+mx\org\ift\login\captcha\service\impl\ConvertidorImagenImpl.class
+mx\org\ift\login\captcha\constants\Constantes.class
+mx\org\ift\login\captcha\ws\Listener$2.class
+mx\org\ift\login\captcha\service\AudioService.class
+mx\org\ift\login\captcha\service\impl\AudioServiceImpl.class
+mx\org\ift\login\captcha\vo\OperacionVO.class
