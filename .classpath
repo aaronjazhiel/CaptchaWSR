@@ -2,10 +2,9 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="lib" path="C:/Users/KODE-LAP0077/Downloads/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/KODE-LAP0077/Downloads/freetts-1.2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/KODE/Desktop/IFT/Captcha/json-20140107.jar"/>
-	<classpathentry kind="lib" path="C:/Users/KODE/Desktop/IFT/Captcha/jsr311-api-1.1.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/Users/aaron/Desktop/Captcha/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/aaron/Desktop/Captcha/json-20140107.jar"/>
 	<classpathentry kind="output" path="target"/>
 </classpath>

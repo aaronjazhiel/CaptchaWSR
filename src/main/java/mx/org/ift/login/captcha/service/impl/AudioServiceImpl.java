@@ -3,13 +3,16 @@ package mx.org.ift.login.captcha.service.impl;
 import java.beans.PropertyVetoException;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Locale;
+import javax.servlet.ServletContext;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -18,23 +21,19 @@ import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import javax.speech.AudioException;
-import javax.speech.Central;
-import javax.speech.EngineException;
-import javax.speech.EngineStateError;
-import javax.speech.synthesis.Synthesizer;
-import javax.speech.synthesis.SynthesizerModeDesc;
-import javax.speech.synthesis.Voice;
+
+
 
 import mx.org.ift.login.captcha.constants.Constantes;
 import mx.org.ift.login.captcha.service.AudioService;
 
 import javax.sound.sampled.Clip;
+import javax.ws.rs.core.Context;
 
 
-public class AudioServiceImpl implements AudioService{
-	private SynthesizerModeDesc desc;
-	private Synthesizer synthesizer;
+public class AudioServiceImpl {
+    
+ 
 	
 	public String translate2(String texto){
 		String u = new ImageServiceImpl().decrypt(Constantes.TR) + texto;
@@ -101,7 +100,28 @@ public class AudioServiceImpl implements AudioService{
 		return u;
 	}
 	
-	public String translate(String texto){
+	
+	   public  ByteArrayOutputStream translate(ArrayList operacionList,ServletContext context) throws IOException { 
+		   
+		   
+	    	ByteArrayOutputStream bufOut = new ByteArrayOutputStream();
+	    	for(int i = 0 ;i<operacionList.size();i++){    		 
+	            BufferedInputStream bufIn = 
+	                    new BufferedInputStream(context.getResourceAsStream(operacionList.get(i).toString()));
+	            byte[] buffer = new byte[1024];
+	            int n;
+	            while ((n = bufIn.read(buffer)) > 0) {
+	                bufOut.write(buffer, 0, n);
+	            }	
+	    	}
+	    	return  bufOut;
+	    }
+	
+	
+	
+	
+	
+	/*public String translate(String texto){
 		String u = Constantes.TR + texto;
 		try {
 			URL url = new URL(u);
@@ -137,9 +157,9 @@ public class AudioServiceImpl implements AudioService{
 		}
 	
 		return u;
-	}
+	}*/
 	
-	public void init(String voiceName) 
+/*	public void init(String voiceName) 
 		    throws EngineException, AudioException, EngineStateError, 
 		           PropertyVetoException {
 		if (desc == null) {
@@ -181,7 +201,7 @@ public class AudioServiceImpl implements AudioService{
 	      synthesizer.speakPlainText(speakText, null);
 	      synthesizer.waitEngineState(Synthesizer.QUEUE_EMPTY);
 
-	}
+	}*/
 	
 	
 }
